@@ -1,0 +1,175 @@
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 70px;
+  font-weight: lighter;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 33px;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.buton {
+  font-size: 33px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  padding: 10px 100px;
+  margin-top: 2vh;
+  background-color: #fff;
+  color: #686963;
+  border: 1px solid #91918d;
+  border-radius: 100px;
+}
+
+.buton:hover {
+  background-color: #fafafa;
+}
+
+.buton:focus {
+  outline: none;
+  border-style: solid;
+  border-color: #a0a0a0;
+}
+
+nav {
+  background-color: #fff;
+  padding: 2vh 8vw;
+}
+
+nav img {
+  height: 55px;
+  margin: 0.5vh 0;
+}
+
+.heroSec {
+  height: 100vh;
+  padding-top: 40vh;
+  background-color: #e56353;
+  color: #fff;
+  text-align: center;
+}
+
+.heroSec .heroSec__bold {
+  font-weight: bold;
+}
+
+.tomates1 {
+  padding: 12vh 0;
+  background-color: #91918d;
+  color: #fff;
+  text-align: center;
+}
+
+.tomates1 img {
+  height: 30vw;
+}
+
+.tomates1 .tomates1__texto {
+  width: 43vw;
+  display: inline-block;
+}
+
+.tomates1 .tomates1__texto h2 {
+  margin: 5vh 0;
+}
+
+.tomates1 .tomates1__texto p {
+  text-align: left;
+}
+
+.tomates2 {
+  padding: 12vh 0;
+  background-color: #fff;
+  color: #686963;
+  text-align: center;
+}
+
+.tomates2 img {
+  height: 27vw;
+}
+
+.tomates2 .tomates2__texto {
+  width: 43vw;
+  display: inline-block;
+}
+
+.tomates2 .tomates2__texto h2 {
+  margin: 5vh 0;
+}
+
+.tomates2 .tomates2__texto p {
+  text-align: left;
+}
+
+.nosos {
+  padding: 10vh 0;
+  background-color: #e56353;
+  color: #fff;
+  text-align: center;
+}
+
+.nosos .nosos__bold {
+  font-weight: bold;
+}
+
+.blog {
+  padding: 13vh 0;
+  background-color: #fff;
+  color: #686963;
+  text-align: center;
+}
+
+.blog img {
+  height: 300px;
+  display: block;
+  margin: auto;
+}
+
+.blog .blog__texto {
+  width: 43vw;
+  display: inline-block;
+  margin-bottom: 4vh;
+}
+
+.blog .blog__texto h2 {
+  margin: 5vh 0;
+}
+
+.blog .blog__texto p {
+  text-align: left;
+}
+
+.compra {
+  padding: 10vh 0 5vh 0;
+  background-color: #e56353;
+  text-align: center;
+  color: #fff;
+}
+
+.compra .compra__bold {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+footer {
+  padding: 12vh 0;
+  background-color: #686963;
+  text-align: center;
+}
+
+footer h1 {
+  font-weight: bold;
+}
+
+footer img {
+  height: 95px;
+}
+/*# sourceMappingURL=main.css.map */

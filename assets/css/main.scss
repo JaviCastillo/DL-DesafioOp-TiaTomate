@@ -1,0 +1,150 @@
+@import 
+    'abstracts/variables',
+    'abstracts/functions',
+    'abstracts/mixins';
+
+@import 
+    'base/reset',
+    'base/typography';
+
+@import 
+    'layout/navigation',
+    'layout/grid',
+    'layout/header',
+    'layout/footer';
+
+@import 
+    'components/buttons';
+
+nav{
+    background-color: $white;
+    padding: 2vh 8vw;
+    & img{
+        height: 55px;
+        margin: 0.5vh 0;
+    }
+}
+
+.heroSec{
+    height: 100vh;
+    padding-top: 40vh;
+    background-color: $jelly-bean;
+    color: $white;
+    text-align: center;
+
+    & .heroSec__bold{
+        font-weight: bold;
+    }
+}
+
+.tomates1{
+    padding: 12vh 0;
+    background-color: $taupe-gray;
+    color: $white;
+    text-align: center;
+
+    & img{
+        //height: 380px;
+        height: 30vw;
+    }
+
+    & .tomates1__texto{
+        width: 43vw;
+        display: inline-block;
+        & h2{
+            margin: 5vh 0;
+        }
+
+        & p{
+            text-align: left;
+        }
+    }
+}
+
+.tomates2{
+    padding: 12vh 0;
+    background-color: $white;
+    color: $granite-gray;
+    text-align: center;
+
+    & img{
+        //height: 340px;
+        height: 27vw;
+    }
+
+    & .tomates2__texto{
+        width: 43vw;
+        display: inline-block;
+        & h2{
+            margin: 5vh 0;
+        }
+
+        & p{
+            text-align: left;
+        }
+    }
+}
+
+.nosos{
+    padding: 10vh 0;
+    background-color: $jelly-bean;
+    color: $white;
+    text-align: center;
+
+    & .nosos__bold{
+        font-weight: bold;
+    }
+}
+
+.blog{
+    padding: 13vh 0;
+    background-color: $white;
+    color: $granite-gray;
+    text-align: center;
+    
+
+    & img{
+        height: 300px;
+        display: block;
+        margin: auto;
+    }
+
+    & .blog__texto{
+        width: 43vw;
+        display: inline-block;
+        margin-bottom: 4vh;
+        & h2{
+            margin: 5vh 0;
+        }
+
+        & p{
+            text-align: left;
+        }
+    }
+}
+
+.compra{
+    padding: 10vh 0 5vh 0;
+    background-color: $jelly-bean;
+    text-align: center;
+    color: $white;
+
+    & .compra__bold{
+        font-weight: bold;
+        font-size: 50px;
+    }
+}
+
+footer{
+    padding: 12vh 0;
+    background-color: $granite-gray;
+    text-align: center;
+
+    & h1{
+        font-weight: bold;
+    }
+
+    & img{
+        height: 95px;
+    }
+}
